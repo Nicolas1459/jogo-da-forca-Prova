@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>jogo_da_forca</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image1.png" />
+    <None Remove="Print 1.png" />
+    <None Remove="Smooth_Trip.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+    <Resource Include="Print 1.png" />
+    <Resource Include="Smooth_Trip.png" />
+  </ItemGroup>
+
+</Project>
